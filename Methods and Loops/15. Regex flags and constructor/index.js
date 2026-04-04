@@ -4,4 +4,4 @@ const userInput = "WIFI"
 const regex = new RegExp(userInput, 'g')
 const doesMatch = regex.test(text) //boolean
 
-console.log(doesMatch)
+console.log(doesMatch) //true
