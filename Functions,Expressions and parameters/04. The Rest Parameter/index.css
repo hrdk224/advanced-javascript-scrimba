@@ -1,0 +1,20 @@
+#labels-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding: 20px;
+    background-color: #f0e6ff;
+    font-family: sans-serif;
+}
+
+.label-card {
+    background-color: #1e88e5;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    line-height: 1.4;
+}
+
+.label-card p {
+    margin: 5px 0;
+}
