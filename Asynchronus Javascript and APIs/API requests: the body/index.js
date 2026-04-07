@@ -35,7 +35,11 @@ try {
             title: 'Holiday Nightmares',
             body: 'When I was kidnapped in Scotland...',
             userId: 100,
-        })
+        }),
+        headers: {
+            'Content-Type': 'application/json'
+        }
+
     })
     if (!response.ok) {
         throw new Error('There was a problem with the API')
